@@ -1,0 +1,237 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .i-top-wrapper h1 {
+    font-size: 50px;
+  }
+
+  .i-top-wrapper p {
+    font-size: 25px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .sns-box {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-left {
+    height: 60px;
+  }
+
+  .logo {
+    width: 150px;
+    margin:5px 5px;
+  }
+
+  .i-top-wrapper {
+    width: 100%;
+    padding: 180px 0 60px 0;
+  }
+
+  .i-spacer {
+    margin-top: 120px;
+  }
+
+  .i-top-wrapper h1 {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .i-top-wrapper p {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .ab-top-wrapper {
+    width: 100%;
+    padding: 50px 0 10px 0;
+  }
+
+  .ac-top-wrapper {
+    width: 100%;
+    padding: 50px 0 10px 0;
+  }
+
+  .s-top-wrapper {
+    width: 100%;
+    padding: 50px 0 10px 0;
+  }
+
+.cafe-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.fes-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.off-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.coo-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.e-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.pr-top-wrapper {
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+  .e-title {
+    width: 180px;
+    background-color: rgba(255,99,71,0.5);
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .s-title {
+    width: 180px;
+    background-color: rgba(255,99,71,0.5);
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .e-title h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 20px 0 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .s-title h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 27px 0 27px 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .e-title p {
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 0 0 20px 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .tft-img {
+    text-align: center;
+  }
+
+
+  .lesson {
+    width: 100%;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .sns-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sns-instagram {
+    text-align: center;
+  }
+
+  .poster li {
+    flex: auto;
+    width: 100%;
+    list-style: none;
+  }
+
+
+  .tftua h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .heading h2 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+
+  .tftua h3 {
+    font-size: 10px;
+    margin-top: auto;
+    padding-bottom: 4px;
+    font-weight: normal;
+  }
+
+  .tft-right {
+    text-align: right;
+  }
+
+  .message {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+
+  .tft-official {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  footer img {
+    width: 40px;
+  }
+
+  footer p {
+    margin-top: auto;
+  }
+
+  .message-wrapper .btn {
+    width: 100%;
+  }
+}
