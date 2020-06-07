@@ -509,6 +509,22 @@ a{
   padding-right: 10px;
 }
 
+.mainnav-menu {
+  list-style: none;
+  padding-left: 0;
+  height: 180px;
+}
+
+.menu-li {
+  display: inline-table;
+  width: 100%;
+  text-align: left;
+  float: left;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  padding: 10px 0 10px 10px;
+}
+
 footer img {
   width: 80px;
 }
